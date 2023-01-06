@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     background-color: #ddd;
     padding: 0;
     margin: 0;
@@ -29,3 +29,36 @@ body {
     transform: translateX(4px) rotate(-45deg);
     transform-origin: left;
 }
+
+/* Start Left SideBar Section  */
+/* start left sidebar */
+.sidebars{
+    min-height: 100vh;
+    background-color: #000;
+}
+.sidebarlinks {
+    opacity: 0.75;
+    transition: all 0.4s ease 0s;
+    position: relative;
+}
+.sidebarlinks:hover {
+    opacity: 1;
+    background-color: #555;
+}
+.currents {
+    box-shadow: -2px 0 10px #333;
+    opacity: 1;
+    transform: all 0.3s ease 0s;
+}
+
+.currents:hover {
+    transform: translateY(-1p);
+}
+.mores {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* end left sidebar */
+/* End Left SideBar Section  */
