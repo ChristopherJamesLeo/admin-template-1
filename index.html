@@ -23,18 +23,18 @@
 <body>
     
     <!-- Start Left Side Bar Section -->
-    <nav>
+    <nav class="navbar navbar-expand-md navbar-ligth">
         <button type="button" class="" data-bs-toggle="collapse" data-bs-target="#nav">
             <div class="bg-dark lines1"></div>
             <div class="bg-dark lines2"></div>
             <div class="bg-dark lines3"></div>
         </button>
-        <div id="nav" class="">
+        <div id="nav" class="navbar-collapse collapse">
             <div class="container-fluid">
                 <div class="row">
                     <!-- start left sidebar -->
                     <div class="col-lg-2 col-md-3 sidebars">
-                        <ul class="navbar-nav mt-4">
+                        <ul class="navbar-nav mt-4 flex-column">
                             <li class="nav-item"><a href="javascript:void(0);" class="nav-link text-white p-2 sidebarlinks currents" data-bs-target="#components-dashboard" data-bs-toggle="collapse"><i class="fas fa-home fa-lg me-3"></i> Dashboards<i class="fas fa-angle-right mores"></i></a>
                                 <ul id="components-dashboard" class="collapse">
                                     <li class=""><a href="javascript:void(0);" class="nav-link text-white p-2 sidebarlinks currents">CRM</a></li>
@@ -68,9 +68,52 @@
                         </ul>
                     </div>
                     <!-- end left side bar -->
-                    <!-- sart top sidebar -->
-                    <div class="col-lg-10 col-md-9">
-    
+                    <!-- start top sidebar -->
+                    <div class="col-lg-10 col-md-9 fixed-top py-2 ms-auto topnavbars">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        <a href="javascript:void(0)">Home</a>
+                                    </li>
+                                    <li class="breadcrumb-item">
+                                        <a href="javascript:void(0)">Dashboard</a>
+                                    </li>
+                                </ol>
+
+                            </div>
+                            <div class="col-md-5">
+                                <!-- to space -->
+                            </div>
+                            <div class="d-flex col-md-3">
+                                <ul class="navbar-nav me-5">
+                                    <li class="nav-item iconparents">
+                                        <a href="javascript:void(0)" class="nav-link iconbullets">
+                                            <i class="fas fa-comments fa-lg text-muted"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="dropdown">
+                                    <a href="javascript:void(0)" class="text-decoration-none">
+                                        user image
+                                    </a>
+                                    <ul class="dropdown-menu text-small">
+                                        <li>
+                                            <a href="javascript:void(0)" class="dropdown-item">New Project</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="dropdown-item">Setting</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="dropdown-item">Profiles</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0)" class="dropdown-item">Sign Out</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <!-- end top sidebar -->
                 </div>
