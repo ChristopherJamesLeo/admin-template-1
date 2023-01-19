@@ -70,6 +70,9 @@ body {
 .iconparents {
     position: relative;
 }
+.iconbullets i {
+    color: #888;
+}
 .iconbullets::after {
     content: "";
     width: 10px;
@@ -80,5 +83,18 @@ body {
     left: 10px;
     top: 5px;
 }
+.breadcrumb a {
+    color: #f4f4f4;
+}
 /* End top side bar */
 /* End Left SideBar Section  */
+
+/* Start Content Section  */
+.cardboxs{
+    transition: all 0.3s ease 0s;
+}
+.cardboxs:hover {
+    box-shadow: 1px 3px 3px #bbb;
+    transform: translateY(-1px);
+}
+/* End Content Section  */
